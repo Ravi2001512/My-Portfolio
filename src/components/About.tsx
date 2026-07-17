@@ -4,16 +4,28 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 
 const skills = [
-  "Java",
-  "Python",
-  "C++",
-  "React",
-  "Node.js",
+  "JavaScript",
   "TypeScript",
+  "Python",
+  "Java",
+  "React.js",
+  "Next.js",
+  "Tailwind CSS",
+  "HTML5",
+  "CSS3",
+  "Node.js",
+  "Express.js",
+  "REST API",
+  "MongoDB",
+  "Firebase",
   "SQL",
   "Git",
-  "Linux",
-  "Data Structures",
+  "GitHub",
+  "VS Code",
+  "Postman",
+  "Vercel",
+  "Render"
+
 ];
 
 export default function About() {
@@ -39,13 +51,13 @@ export default function About() {
 
             <div className="space-y-6 text-zinc-400 text-lg leading-relaxed">
               <p>
-                Hello! I&apos;m Ravindu, an undergraduate student majoring in Software Engineering. I&apos;m passionate about learning computer science fundamentals, building scalable systems, and solving complex problems with code.
+                Hello! I&apos;Ravindu Deshan, a final-year Software Engineering undergraduate at The Open University of Sri Lanka. I enjoy building modern web and mobile applications that solve real-world problems.
               </p>
               <p>
-                Through my academic journey, I&apos;ve developed a strong foundation in algorithms, data structures, and object-oriented design. I&apos;m constantly expanding my skill set to bridge the gap between theoretical concepts and practical applications.
+                I have hands-on experience in Full-Stack Development using the MERN Stack (MongoDB, Express.js, React.js, Node.js) and also develop mobile applications with React Native. I enjoy creating responsive user interfaces, designing REST APIs, and deploying applications using modern tools.
               </p>
               <p>
-                When I&apos;m not studying or coding, you can find me participating in hackathons, contributing to open-source projects, or diving into new technologies.
+                I am always eager to learn new technologies, improve my problem-solving skills, and work with teams to build high-quality software. Currently, I am looking for a Software Engineering, Full-Stack Developer, Frontend Developer, or QA Internship where I can contribute my skills while gaining industry experience.
               </p>
             </div>
           </div>
@@ -53,7 +65,7 @@ export default function About() {
           <div className="flex-1 w-full">
             <div className="glass p-8 rounded-3xl relative overflow-hidden">
               <div className="absolute top-0 right-0 w-32 h-32 bg-primary/20 blur-[50px] -translate-y-1/2 translate-x-1/2" />
-              <h3 className="text-xl font-semibold mb-6 text-white">Technical Arsenal</h3>
+              <h3 className="text-xl font-semibold mb-6 text-white">Technical Skills</h3>
 
               <div className="flex flex-wrap gap-3">
                 {skills.map((skill, index) => (

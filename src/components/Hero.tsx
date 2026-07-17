@@ -59,7 +59,9 @@ export default function Hero() {
           </Link>
 
           <Link
-            href="#"
+            href="/Ravindu Deshan.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-8 py-4 glass text-white font-medium rounded-full hover:bg-white/5 transition-colors hover:border-white/20 active:scale-95"
           >
             Download CV <Download size={18} />
