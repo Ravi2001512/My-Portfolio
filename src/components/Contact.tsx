@@ -6,11 +6,11 @@ import { FaGithub, FaLinkedin } from "react-icons/fa6";
 import Link from "next/link";
 
 const contactInfo = [
-  { icon: Mail, label: "Email", value: "hello@johndoe.com", href: "mailto:hello@johndoe.com" },
-  { icon: Phone, label: "Phone", value: "+1 (555) 123-4567", href: "tel:+15551234567" },
-  { icon: MapPin, label: "Location", value: "San Francisco, CA", href: "#" },
-  { icon: FaGithub, label: "GitHub", value: "github.com/johndoe", href: "https://github.com/johndoe" },
-  { icon: FaLinkedin, label: "LinkedIn", value: "linkedin.com/in/johndoe", href: "https://linkedin.com/in/johndoe" },
+  { icon: Mail, label: "Email", value: "deshanravindu256@gmail.com", href: "mailto:deshanravindu256@gmail.com" },
+  { icon: Phone, label: "Phone", value: "+94740155058", href: "tel:+94740155058" },
+  { icon: MapPin, label: "Location", value: "Tangalle, Sri Lanka", href: "#" },
+  { icon: FaGithub, label: "GitHub", value: "https://github.com/Ravi2001512", href: "https://github.com/Ravi2001512" },
+  { icon: FaLinkedin, label: "LinkedIn", value: "https://www.linkedin.com/in/ravindu-deshan-723a5a243/", href: "https://www.linkedin.com/in/ravindu-deshan-723a5a243/" },
 ];
 
 export default function Contact() {
@@ -25,13 +25,13 @@ export default function Contact() {
           className="glass p-8 md:p-16 rounded-3xl relative overflow-hidden flex flex-col lg:flex-row gap-16"
         >
           <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-transparent opacity-30" />
-          
+
           <div className="relative z-10 flex-1">
             <h2 className="text-4xl md:text-6xl font-bold mb-6">
               Let&apos;s build something <br />
               <span className="text-primary">extraordinary.</span>
             </h2>
-            
+
             <p className="text-zinc-400 text-lg mb-10 max-w-md">
               I&apos;m currently looking for software engineering internships and new grad roles. Whether you have an opportunity or just want to connect, my inbox is always open!
             </p>
@@ -39,7 +39,7 @@ export default function Contact() {
 
           <div className="relative z-10 flex-1 flex flex-col gap-6 justify-center">
             {contactInfo.map((info, idx) => (
-              <motion.div 
+              <motion.div
                 key={info.label}
                 initial={{ opacity: 0, x: 20 }}
                 whileInView={{ opacity: 1, x: 0 }}

@@ -15,10 +15,10 @@ export default function Footer() {
         </div>
 
         <div className="flex items-center gap-6">
-          <Link href="https://github.com/johndoe" target="_blank" className="text-zinc-400 hover:text-white transition-colors">
+          <Link href="https://github.com/Ravi2001512" target="_blank" className="text-zinc-400 hover:text-white transition-colors">
             <FaGithub size={24} />
           </Link>
-          <Link href="https://linkedin.com/in/johndoe" target="_blank" className="text-zinc-400 hover:text-[#0A66C2] transition-colors">
+          <Link href="https://www.linkedin.com/in/ravindu-deshan-723a5a243/" target="_blank" className="text-zinc-400 hover:text-[#0A66C2] transition-colors">
             <FaLinkedin size={24} />
           </Link>
         </div>
@@ -32,7 +32,7 @@ export default function Footer() {
           <li><Link href="#contact" className="hover:text-primary transition-colors">Contact</Link></li>
         </ul>
         <p className="text-zinc-500 text-sm">
-          © {new Date().getFullYear()} John Doe. All rights reserved.
+          © {new Date().getFullYear()} Ravindu Deshan. All rights reserved.
         </p>
       </div>
     </footer>

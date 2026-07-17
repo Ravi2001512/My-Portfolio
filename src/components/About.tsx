@@ -51,7 +51,7 @@ export default function About() {
 
             <div className="space-y-6 text-zinc-400 text-lg leading-relaxed">
               <p>
-                Hello! I&apos;Ravindu Deshan, a final-year Software Engineering undergraduate at The Open University of Sri Lanka. I enjoy building modern web and mobile applications that solve real-world problems.
+                Hello! I&apos;m Ravindu Deshan, a final-year Software Engineering undergraduate at The Open University of Sri Lanka. I enjoy building modern web and mobile applications that solve real-world problems.
               </p>
               <p>
                 I have hands-on experience in Full-Stack Development using the MERN Stack (MongoDB, Express.js, React.js, Node.js) and also develop mobile applications with React Native. I enjoy creating responsive user interfaces, designing REST APIs, and deploying applications using modern tools.
