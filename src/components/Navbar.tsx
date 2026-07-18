@@ -10,6 +10,7 @@ const navLinks = [
   { name: "Home", href: "/" },
   { name: "About", href: "#about" },
   { name: "Projects", href: "#projects" },
+  { name: "Experience", href: "#experience" },
   { name: "Contact", href: "#contact" },
 ];
 
@@ -82,13 +83,10 @@ export default function Navbar() {
             </Link>
           ))}
           <div className="flex items-center gap-6 pt-4 border-t border-white/10">
-            <Link href="https://github.com" target="_blank" className="text-zinc-400 hover:text-white transition-colors">
+            <Link href="https://github.com/Ravi2001512" target="_blank" className="text-zinc-400 hover:text-white transition-colors">
               <FaGithub size={24} />
             </Link>
-            <Link href="https://twitter.com" target="_blank" className="text-zinc-400 hover:text-[#1DA1F2] transition-colors">
-              <FaXTwitter size={24} />
-            </Link>
-            <Link href="https://linkedin.com" target="_blank" className="text-zinc-400 hover:text-[#0A66C2] transition-colors">
+            <Link href="https://www.linkedin.com/in/ravindu-deshan-723a5a243/" target="_blank" className="text-zinc-400 hover:text-[#0A66C2] transition-colors">
               <FaLinkedin size={24} />
             </Link>
           </div>
