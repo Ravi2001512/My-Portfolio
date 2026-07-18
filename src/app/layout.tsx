@@ -31,8 +31,21 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased dark`}
     >
       <body className="min-h-full flex flex-col bg-background text-foreground selection:bg-primary/30 selection:text-white">
+        {/* Fixed Video Background */}
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="fixed inset-0 w-full h-full object-cover z-0"
+        >
+          <source src="/bg.mp4" type="video/mp4" />
+        </video>
+        {/* Dark overlay for readability */}
+        <div className="fixed inset-0 bg-black/60 z-0" />
+
         <Navbar />
-        <main className="flex-1 flex flex-col">{children}</main>
+        <main className="flex-1 flex flex-col relative z-10">{children}</main>
         <Footer />
       </body>
     </html>

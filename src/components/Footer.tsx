@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin, FaXTwitter } from "react-icons/fa6";
 
 export default function Footer() {
   return (
-    <footer className="w-full border-t border-white/10 bg-black/50 backdrop-blur-md py-12 mt-auto">
+    <footer className="relative z-10 w-full border-t border-white/10 bg-black/50 backdrop-blur-md py-12 mt-auto">
       <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
         <div className="flex flex-col items-center md:items-start gap-2">
           <Link href="/" className="text-2xl font-bold tracking-tighter hover:text-primary transition-colors">
