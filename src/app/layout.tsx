@@ -37,6 +37,8 @@ export default function RootLayout({
           loop
           muted
           playsInline
+          preload="auto"
+          poster="/bg_poster.png"
           className="fixed inset-0 w-full h-full object-cover z-0"
         >
           <source src="/bg.mp4" type="video/mp4" />
