@@ -42,6 +42,13 @@ const projects = [
     tech: ["HTML5", "CSS3"],
     image: "/Dew.png",
     github: "https://github.com/Ravi2001512/Dew-Flowers",
+  },
+  {
+    title: "Task Management System",
+    description: "A Task Management System with CRUD operations",
+    tech: ["React", "Node.js", "TypeScript", "PostgreSQL", "Tailwind CSS"],
+    image: "/task.png",
+    github: "https://github.com/Ravi2001512/Task-Management-System-Frontend",
   }
 ];
 
@@ -118,7 +125,7 @@ export default function Projects() {
 
                 <div className="flex flex-wrap gap-2 mb-6">
                   {project.tech.map((tech) => (
-                    <span key={tech} className="text-xs font-mono text-zinc-500 bg-white/5 px-2 py-1 rounded">
+                    <span key={tech} className="text-xs font-medium text-primary bg-primary/10 border border-primary/20 px-2.5 py-1 rounded-full">
                       {tech}
                     </span>
                   ))}
